@@ -28,6 +28,10 @@ def cache(
                 str(args) + str(kwargs) + '.pickle',
             )
 
+            # create cache folder if it does not exists
+            if not os.path.exists('weather/cache'):
+                os.mkdir('weather/cache')
+
             # loads cache if it is
             if os.path.exists(path):
                 with open(path, 'rb') as file:

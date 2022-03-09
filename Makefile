@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 TEST = pytest --verbosity=2 --showlocals --log-level=DEBUG --strict-markers $(arg) -k "$(k)"
-CODE = weather
+CODE = weather tests
 
 .PHONY: help
 help: ## Show this help
