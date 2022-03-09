@@ -9,7 +9,6 @@ python = "^3.7"
 typer = "^0.4.0"
 bs4 = "^0.0.1"
 requests = "^2.27.1"
-types-requests = "^2.27.11"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.12.1"
@@ -38,7 +37,7 @@ flake8-return = "*"
 unify = "*"
 safety = "*"
 autoflake = "^1.4"
-requests-mock = "^1.9.3"
+types-requests = "^2.27.11"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
